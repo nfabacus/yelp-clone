@@ -16,7 +16,7 @@ Rails.application.routes.draw do
   #   resources :products
 
   # Example resource route with options:
-      resources :restaurants
+  resources :restaurants
   #   resources :products do
   #     member do
   #       get 'short'
