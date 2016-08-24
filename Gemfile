@@ -32,6 +32,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+
+
 group :test do
 
 end
@@ -42,6 +44,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'rspec-collection_matchers'
+  gem 'dotenv-rails', :require => 'dotenv/rails-now'
 end
 
 group :development do
@@ -50,4 +53,7 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
 end
+
+gem 'omniauth-facebook'
